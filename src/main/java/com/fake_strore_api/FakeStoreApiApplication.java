@@ -8,6 +8,7 @@ public class FakeStoreApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FakeStoreApiApplication.class, args);
+		System.out.println("App is running!!!!");
 	}
 
 }
