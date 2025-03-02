@@ -1,0 +1,22 @@
+use fake_store_api;
+
+INSERT INTO product (title, price, description, category, image) VALUES ('Smartphone', 699.99, 'Latest model with advanced features', 'Electronics', 'image1.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Laptop', 1199.99, 'High-performance laptop for gaming and work', 'Electronics', 'image2.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Wireless Headphones', 199.99, 'Noise-canceling over-ear headphones', 'Accessories', 'image3.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Smartwatch', 299.99, 'Fitness tracker with heart rate monitor', 'Wearables', 'image4.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Bluetooth Speaker', 129.99, 'Portable speaker with deep bass', 'Audio', 'image5.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Tablet', 499.99, '10-inch tablet with high-resolution display', 'Electronics', 'image6.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Gaming Console', 499.99, 'Next-gen gaming console with 4K support', 'Gaming', 'image7.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Mechanical Keyboard', 89.99, 'RGB backlit mechanical keyboard', 'Accessories', 'image8.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Wireless Mouse', 49.99, 'Ergonomic wireless mouse with fast response', 'Accessories', 'image9.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('4K Monitor', 349.99, '27-inch 4K UHD monitor with HDR', 'Electronics', 'image10.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('External Hard Drive', 129.99, '2TB external hard drive for backup', 'Storage', 'image11.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Fitness Band', 79.99, 'Waterproof fitness band with step tracking', 'Wearables', 'image12.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('E-Reader', 159.99, 'Lightweight e-reader with adjustable lighting', 'Books', 'image13.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Smart TV', 999.99, '65-inch Smart TV with OLED display', 'Electronics', 'image14.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Drone', 899.99, 'High-speed drone with 4K camera', 'Gadgets', 'image15.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('VR Headset', 399.99, 'Virtual reality headset with immersive experience', 'Gaming', 'image16.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Wireless Charger', 39.99, 'Fast wireless charger for smartphones', 'Accessories', 'image17.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Portable Projector', 299.99, 'Mini projector for home entertainment', 'Electronics', 'image18.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Action Camera', 249.99, 'Waterproof action camera for outdoor adventures', 'Cameras', 'image19.jpg');
+INSERT INTO Product (title, price, description, category, image) VALUES ('Smart Light Bulb', 29.99, 'Wi-Fi-enabled smart light bulb with voice control', 'Smart Home', 'image20.jpg');
