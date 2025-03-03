@@ -6,18 +6,22 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
+@RequiredArgsConstructor
 public class ProductServiceImpl implements ProductService{
 
     private final ProductRepository productRepository;
 
-    public ProductServiceImpl(ProductRepository productRepository) {
-        this.productRepository = productRepository;
-    }
-
     @Override
     public List<Product> getAllProducts() {
         return productRepository.findAll();
+    }
+
+    @Override
+    public Optional<Product> fetchProductbyId(int productId) {
+        return Optional.ofNullable(productRepository.findById(productId)
+                .orElseThrow(() -> new RuntimeException("User not found with id: " + productId)));
     }
 }
